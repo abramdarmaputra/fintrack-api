@@ -45,3 +45,10 @@ class TaskResponse(TaskBase):
 
     class Config:
         from_attributes = True  # Fix untuk Pydantic v2
+
+# ----------------------
+# Category Schemas
+# ----------------------
+class CategoryCreate(BaseModel):
+    name: str
+    
