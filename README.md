@@ -17,9 +17,9 @@ FinTrackAPI adalah RESTful API sederhana untuk membantu pengguna mencatat pemasu
 * **PostgreSQL** (Database)
 * **SQLAlchemy** (ORM)
 * **Alembic** (Migrasi Database)
-* **Postman** (Testing API)
+* **Docker** & **docker-compose** (Containerization)
+* **Postman** (Pengujian API)
 * **GitHub** (Version Control)
-* **Docker** (Container)
 
 ---
 
@@ -85,16 +85,26 @@ fintrackapi/
 │   ├── deps.py
 │   ├── crud/
 │   │   ├── __init__.py
-│   │   ├── kategori.py
-│   │   ├── transaksi.py
-│   ├── routers/
+│   │   ├── category.py
+│   │   ├── transaction.py
+│   ├── routes/
 │   │   ├── __init__.py
-│   │   ├── kategori.py
-│   │   ├── transaksi.py
+│   │   ├── category.py
+│   │   ├── transaction.py
+│   ├── utils/
+│   |   ├── __init__.py
+│   |   ├── calc.py
+│   |   ├── security.py
+│   |   ├── summary.py
 ├── alembic/
 │   ├── versions/
 │   ├── env.py
 │   └── script.py.mako
+├── tests/                 # Unit & integration tests
+│   ├── __init__.py
+│   ├── test_calc.py
+│   ├── test_categories.py
+│   └── test_transactions.py
 ├── alembic.ini
 ├── .env.example
 ├── requirements.txt
