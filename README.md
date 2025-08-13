@@ -4,12 +4,16 @@
 
 FinTrackAPI adalah RESTful API sederhana untuk membantu pengguna mencatat pemasukan, pengeluaran, dan memantau saldo bulanan. API ini cocok digunakan sebagai backend aplikasi mobile/web untuk manajemen keuangan pribadi.
 
+---
+
 ## 🎯 Tujuan
 
 * Mencatat transaksi pemasukan dan pengeluaran.
 * Mengelompokkan transaksi berdasarkan kategori.
 * Menyediakan ringkasan laporan bulanan dan pengeluaran per kategori.
 * Menyediakan API CRUD untuk User, Kategori, dan Transaksi.
+
+---
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -141,4 +145,6 @@ fintrackapi/
 
 ## 📝 Lisensi
 
+```
 Proyek ini menggunakan lisensi MIT.
+```
