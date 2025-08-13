@@ -19,6 +19,7 @@ FinTrackAPI adalah RESTful API sederhana untuk membantu pengguna mencatat pemasu
 * **Alembic** (Migrasi Database)
 * **Postman** (Testing API)
 * **GitHub** (Version Control)
+* **Docker** (Container)
 
 ---
 
