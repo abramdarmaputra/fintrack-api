@@ -145,6 +145,4 @@ fintrackapi/
 
 ## 📝 Lisensi
 
-```
-Proyek ini menggunakan lisensi MIT.
-```
+Proyek ini menggunakan lisensi **MIT**.
