@@ -96,7 +96,6 @@ fintrackapi/
 │   ├── env.py
 │   └── script.py.mako
 ├── alembic.ini
-├── .env
 ├── .env.example
 ├── requirements.txt
 ├── README.md
